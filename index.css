@@ -4,5 +4,11 @@
 .icon-menu{
   font-family: 'Poiret One', cursive;
 }
-.jumbotron{background:url(https://cloud.githubusercontent.com/assets/14900860/10185075/fe18bc5e-66f8-11e5-9024-f75a99918505.jpg);
+.jumbotron{
+  background:url('https://cloud.githubusercontent.com/assets/14900860/10185075/fe18bc5e-66f8-11e5-9024-f75a99918505.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:1000px;
 }
